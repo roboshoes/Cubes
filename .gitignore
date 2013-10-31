@@ -1,0 +1,14 @@
+#ignore vim swp files
+*.swp
+#ignore jetbrains
+/.idea/
+#ignore sass temp files
+.sass-cache
+#ignore npm installed dependencies
+node_modules/
+#ignore the built css files
+public/stylesheets/*.css
+#ignore built html files (from jade templates)
+public/*.html
+.DS_STORE
+deploy
