@@ -1,0 +1,12 @@
+doctype 5
+html
+    head
+        title= title
+        link(rel='stylesheet', href='stylesheets/style.css').
+    body
+        block content
+
+        if deploy
+            script(type="text/javascript", src="javascripts/main.js")
+        else
+            script(type="text/javascript", data-main="javascripts/main", src="javascripts/vendor/require.js")
